@@ -1,0 +1,65 @@
+{
+  "metadata_key": "aaipcptf_metadata",
+  "framework_version": "AAIPCPTF_v1.1",
+
+  "creation_timestamp": "AUTO_INSERT_UTC_ISO8601",
+  "log_path": "./logs/aaipcptf_run.log",
+
+  "mode_state": {
+    "idda": "off",
+    "idda_protocol": "off"
+  },
+
+  "qa_hooks": [
+    "qa_accuracy_check",
+    "qa_perceptiveness_scan",
+    "qa_discernment_decision_log",
+    "qa_flexibility_switch",
+    "qa_adaptability_assessment",
+    "qa_iterability_metrics",
+    "qa_breadth_coverage"
+  ],
+
+  "source_details": {
+    "text_length": 0,
+    "complexity_metrics": {},
+    "metadata": {
+      "author": "Unknown",
+      "publication_date": "1970-01-01",
+      "domain": "General"
+    }
+  },
+
+  "category_label": "Uncategorised",
+  "confidence": 0,
+  "tonal_profile": {},
+  "concept_list": [],
+  "disambiguation_map": {},
+
+  "embeddings": {
+    "semantic": [],
+    "style": []
+  },
+
+  "chunks": [],
+  "neologisms": [],
+
+  "pipeline_parameters": {
+    "precategorization_threshold": 0.75,
+    "eccentricity_threshold": 0.7,
+    "back_translation_similarity_threshold": 0.8,
+    "max_iterations": 3,
+    "model_settings": {}
+  },
+
+  "iteration_logs": [],
+  "human_feedback": {},
+
+  "final_quality_scores": {
+    "overall_fidelity": 0,
+    "coherence_score": 0,
+    "style_consistency": 0
+  },
+
+  "error_logs": []
+}
