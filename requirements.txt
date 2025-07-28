@@ -1,0 +1,25 @@
+# =====================
+# requirements.txt (AAIPCPTF main branch-root)
+# =====================
+# NOTE: Place only one package per line. Do not put comments after package names.
+
+# Core dependencies for psd_engine.py (required for full feature set)
+jinja2
+pyyaml
+pytest
+
+# (Optional) For coverage/linting in CI/CD
+# coverage      # Uncomment if using code coverage in CI
+# flake8        # Uncomment if you want to add linting in CI
+
+# (Optional) For colorized or advanced logging (if you enhance logging_utils)
+# colorlog
+
+# (Optional) For Markdown parsing (future AAIPCPTF prompt libraries)
+# markdown
+
+# (Optional) For advanced testing or mocking (future upgrades)
+# pytest-mock
+
+# Add any other AAIPCPTF or pipeline-specific dependencies below:
+# e.g., numpy, pandas, requests, etc.
